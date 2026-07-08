@@ -9,7 +9,7 @@ Este proyecto despliega un ambiente de WordPress y MySQL usando Docker Compose, 
 - `Jenkinsfile` → Pipeline automatizado para levantar y verificar el ambiente.
 - `README.md` → Documentación del proyecto.
 
-## ▶️ Uso
+## Uso
 1. Clonar el repositorio:
    git clone https://github.com/salazarhidalgo37-dotcom/orga-geovanny-salazar.git
 
