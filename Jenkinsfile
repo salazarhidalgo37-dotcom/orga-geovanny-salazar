@@ -5,6 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
+                git branch: 'main',
                 git 'https://github.com/salazarhidalgo37-dotcom/orga-geovanny-salazar.git'
             }
         }
