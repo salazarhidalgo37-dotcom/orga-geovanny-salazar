@@ -1,7 +1,6 @@
 services:
   db:
     image: mysql:5.7
-    container_name: mysql_wp
     restart: always
     env_file: .env
     volumes:
@@ -11,7 +10,6 @@ services:
 
   wordpress:
     image: wordpress:latest
-    container_name: wordpress_app
     restart: always
     env_file: .env
     ports:
@@ -25,7 +23,6 @@ services:
 
   jenkins:
     build: .
-    container_name: jenkins_server
     restart: always
     user: root
     ports:
